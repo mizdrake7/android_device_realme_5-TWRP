@@ -1,7 +1,7 @@
 # android_device_realme_RMX1911
 For building TWRP for Realme 5
 
-TWRP device tree for Realme 5
+TWRP Recovery tree for Realme 5
 
 ## Features
 
@@ -15,10 +15,9 @@ Works:
 - Flashing (opengapps, roms, images and so on)
 - Backup/Restore (Needs more testing)
 - USB OTG
-
-TO-DO:
-
 - Vibration support
+- Ozip Decryption
+- Flashlight
 
 ## Compile
 
@@ -53,5 +52,4 @@ fastboot boot out/target/product/RMX1911/recovery.img
 
 Using precompiled stock kernel
 
-## Thanks
 
