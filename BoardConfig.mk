@@ -155,9 +155,5 @@ TW_INCLUDE_PYTHON := true
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 
-# PBRP specific build flags
-PB_DISABLE_DEFAULT_TREBLE_COMP := true
-PB_DISABLE_DEFAULT_DM_VERITY := true
+# OFOX specific build flags
 
-# PB Torch
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
