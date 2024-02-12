@@ -159,5 +159,7 @@ TW_EXCLUDE_BASH := true
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 
-# OFOX specific build flags
+# VINTF
+PRODUCT_ENFORCE_VINTF_MANIFEST := true
 
+# OFOX specific build flags
